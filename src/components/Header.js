@@ -15,7 +15,7 @@ const Header = () => {
             <div className="container-fluid" >
                 <div className="row  ">
                     <div className="col-12 m-0 p-0"><img src={require("../assets/bg.jpg")} alt="" id='bg' /></div>
-                    <div className="col-12 mt-1 p-0 z-2 d-flex justify-content-end"><button className='btn custombutton '>PROJECTS</button></div>
+                    <div className="col-12 mt-1 p-0 z-2 d-flex justify-content-end"> <Link to="/projects"> <button className='btn custombutton '>PROJECTS</button> </Link> </div>
                     <div className="col-12 z-2 d-flex justify-content-center  "> <p id="text">HEISENBERG</p><p id="shadow">
                         <span id="glow">HEISEN</span><span id="blink">BERG</span>
                     </p>
