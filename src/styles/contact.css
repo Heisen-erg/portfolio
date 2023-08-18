@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;}
+#iii{
+    position: fixed;
+    object-fit: cover;
+    
+}
+.custom{
+    background-color: rgba(148, 98, 148, 0.537);
+    opacity: 0.5;
+    border: solid 4px rgba(255, 255, 255, 0.247);
+}
+.size{
+    width: 5vh;
+}
+#about{
+    font-family: cursive;
+    font-size: 3vmax;
+    font-weight: 700;
+    color: aquamarine;
+    margin-top: 4vw;
+    margin-left: 1.5vh;
+}
+.submit{
+    background-color: pink;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1vmax;
+    width: 8vmax;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.input{
+    width: 40vmax;
+    height: 4vmax;
+    font-size: 2vmax;
+}

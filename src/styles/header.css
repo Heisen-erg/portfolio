@@ -1,0 +1,216 @@
+@media screen and (min-width: 1000px){ #overflow{margin-right: 125px;}}
+@media screen and (max-width: 1000px){
+   .row .custombutton1{
+       margin-top: 40vh;
+       width: 20vh;
+    }
+    #overflow{
+        margin-top: -14vmax ;
+       margin-right: 3vh;
+    }
+   .row .textty{
+        margin-top: 26vmax;
+        margin-left: 0.1vh;
+    }
+    #bg{
+        -webkit-overflow-scrolling: touch;
+        overflow: hidden;
+
+    }
+   .row .footer{
+        font-size: 10px;
+    }
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#bg {
+    position: fixed;
+    object-fit: cover;
+    overflow: hidden;
+    background-attachment: fixed;
+    scrollbar-gutter: stable;
+    height: 100vh;
+    width: 100vw;
+}
+#margin{
+height: 90vh;
+background-color: rgba(143, 145, 145, 0.542);
+opacity: 0.75;
+border-top: solid 8px rgba(246, 240, 240, 0.418);
+margin-top: 44vh;
+border-bottom: solid 8px rgba(246, 240, 240, 0.418);
+}
+.margin1{
+  
+   margin-top: 10vh;
+}
+.textty{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.1vmax;
+    margin-top: 12vmax;
+    color: black;
+   text-align: center;
+   
+}
+
+.custombutton {
+    color: white;
+    background-color: rgba(66, 95, 99, 0.555);
+    border: 2px solid black;
+}
+.custombutton1 {
+    color: white;
+    background-color: rgba(66, 95, 99, 0.555);
+    border: 2px solid black;
+    margin-top: 25vw;
+   border-radius: 20px;
+  
+}
+.custombutton1:hover {
+    color: white;
+    background-color: rgba(165, 42, 42, 0.381);
+    
+}
+
+.custombutton:hover {
+    color: white;
+    background-color: rgba(165, 42, 42, 0.381);
+    
+}
+#text,
+    #shadow {
+        position: absolute;
+        margin: 0;
+        top: 40%;
+        left: 52%;
+        transform: translate(-50%, -50%);
+        font-size: 3.5vmax;
+        letter-spacing: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #1e1d1d;
+        -webkit-text-stroke: 1px rgba(11, 252, 212, 0.488);
+    }
+
+    #text {
+        color: #fc1010
+        
+    }
+
+    #shadow {
+        text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+    }
+
+   #glow {
+        animation: neon1 linear infinite 2s;
+        will-change: opacity;
+    }
+
+    #blink {
+        animation: blink linear infinite 2s;
+    }
+
+
+    @keyframes neon1 {
+        20% {
+            opacity: 1;
+        }
+        80% {
+            opacity: 0.1;
+        }
+    }
+
+
+    @keyframes blink {
+        70% {
+            opacity: 1;
+        }
+        79% {
+            opacity: 0;
+        }
+        81% {
+            opacity: 1;
+        }
+        82% {
+            opacity: 0;
+        }
+        83% {
+            opacity: 1;
+        }
+        92% {
+            opacity: 0;
+        }
+        92.5% {
+            opacity: 1;
+        }
+    }
+    .shadow{
+        height: 34vmax;
+        width: 30vmax;
+    }
+    #img{
+        object-fit: cover;
+    }
+    #shade{
+    
+        border-radius: 20px;
+        transition: .3s;
+        
+    }
+    #overflow{
+        top: 13vh;
+        position: relative;
+        overflow: hidden;
+        border-radius: 20px 20px 20px 20px ;
+        
+        box-shadow: 15px 15px 20px rgb(38, 36, 36); 
+        
+        left: 2vw;
+    }
+    #shade:hover{
+        scale: 1.1;
+    }
+    #tag{
+      
+       margin-top: 3vmax;
+        font-family: cursive;
+        color: #a3dade;
+        font-size: 3vh;
+    }
+
+    #image{
+        width: 11vw;
+        justify-self: center;
+        top: 30vh;
+        border-radius: 15vw;
+        left: 7vh;
+    }  
+    #h3
+{
+color: #e3e0e0;
+font-family: cursive;
+font-size: 4vh;
+
+
+}
+.heading{
+    height: 30vh;
+    margin-top: 30vh;
+}
+.heading1{
+    height: 20vh;
+    margin-top: 30vh; 
+}
+.footer{
+    margin-top:5vmax;
+    height: 6vmax;
+   place-items: center;
+   font-size: 16px;
+}      
