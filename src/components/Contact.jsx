@@ -16,7 +16,7 @@ const Contact = () => {
     e.preventDefault();
    const {name,email} = data ;
    try{
-   const {data} = await axios.post("https://my-servers.onrender.com/r" , {name,email})
+   const {data} = await axios.post("https://my-server-dusky.vercel.app/r" , {name,email})
      
     if(data.error){
       toast(data.error,{position: "top-right", autoClose:2000})
