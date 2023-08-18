@@ -20,7 +20,7 @@ const Project = () => {
                             </div>
                            
                         </div>
-                      <div className='center' > <Link to='https://arunavguptaji.github.io/blogging/'><button className='btn mt-0 z-2 car1' >►</button> </Link> </div> 
+                      <div className='center' > <Link to='https://blog-jet-pi.vercel.app/'><button className='btn mt-0 z-2 car1' >►</button> </Link> </div> 
 
     
 
