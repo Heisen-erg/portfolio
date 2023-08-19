@@ -4,6 +4,9 @@ import {Link} from "react-router-dom"
 
 const Project = () => {
     return (
+        <>
+        {document.title='Portfolio-Project'}
+        
         <div className="container-fluid">
             <div className="row " >
                 <div className="col-12 m-0 p-0 "><img className='backg' src={require("../assets/project2.jpg")} alt="" /></div>
@@ -28,7 +31,7 @@ const Project = () => {
                 </div>
             </div>
         
-
+            </>
     )
 }
 

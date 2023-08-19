@@ -27,8 +27,8 @@ const Contact = () => {
   }
   
   return (
- 
-    
+ <>
+    {document.title='Portfolio-Contact'}
   <div className="container-fluid" >
     <div className="row   gy-3">
       <div className="col-12 m-0 p-0"><img src={bg2} className="m-0 p-0" alt="" id="iii" /></div>
@@ -44,7 +44,7 @@ const Contact = () => {
       </div>
     </div>
   </div>
-  
+  </>
   )
 }
 
