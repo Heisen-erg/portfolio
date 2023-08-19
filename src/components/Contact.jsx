@@ -17,7 +17,7 @@ const Contact = () => {
    const {name,email} = data ;
    try{
    const {data} = await axios.post("https://my-server-dusky.vercel.app/r" , {name,email})
-     
+   
     if(data.error){
       toast(data.error,{position: "top-right", autoClose:2000})
     }
@@ -28,7 +28,7 @@ const Contact = () => {
   
   return (
  <>
-    {document.title='Portfolio-Contact'}
+    
   <div className="container-fluid" >
     <div className="row   gy-3">
       <div className="col-12 m-0 p-0"><img src={bg2} className="m-0 p-0" alt="" id="iii" /></div>

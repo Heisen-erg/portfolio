@@ -3,9 +3,12 @@ import "../styles/project.css"
 import {Link} from "react-router-dom"
 
 const Project = () => {
+
+   
+
     return (
         <>
-        {document.title='Portfolio-Project'}
+      
         
         <div className="container-fluid">
             <div className="row " >
