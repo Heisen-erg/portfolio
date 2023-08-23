@@ -11,7 +11,7 @@ import {Link} from "react-router-dom"
 
 const Header = () => {
     return (
-        <body>
+       <body>
 
 
             <div className="container-fluid" >
@@ -38,8 +38,8 @@ const Header = () => {
                     <div class="col-xl-3 d-grid z-2 col-6"><img src={js} alt="" id="image" /><p className='text-center' id="tag">Java Script</p></div>
                     <div class="col-xl-3 d-grid z-2 col-6"><img src={html} alt="" id="image" /><p className='text-center' id="tag">CSS</p></div>
                     <div class="col-xl-3 d-grid z-2 col-6"><img src={rs} alt="" id="image" /><p className='text-center' id="tag">REACT</p></div>
-                    <div class="col-xl-3 d-grid z-2 col-6"><img src={node} alt="" id="image" /><p className='text-center' id="tag">Node</p></div>
-                    <div class="col-xl-3 d-grid z-2 col-6"><img src={mongo} alt="" id="image" /><p className='text-center' id="tag">MongoDB</p></div>
+                    <div class="col-xl-3 mt-5 d-grid z-2 col-6"><img src={node} alt="" id="image" /><p className='text-center' id="tag">Node</p></div>
+                    <div class="col-xl-3 mt-5 d-grid z-2 col-6"><img src={mongo} alt="" id="image" /><p className='text-center' id="tag">MongoDB</p></div>
 
                 </div>
             </div>
@@ -50,7 +50,7 @@ const Header = () => {
             </div>
 
         </body>
-    )
-}
+    
+)}
 
 export default Header

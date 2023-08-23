@@ -65,6 +65,8 @@ border-bottom: solid 8px rgba(246, 240, 240, 0.418);
     color: white;
     background-color: rgba(66, 95, 99, 0.555);
     border: 2px solid black;
+    border-radius: 20px;
+    margin-right: 0.5vw;
 }
 .custombutton1 {
     color: white;
@@ -100,7 +102,7 @@ border-bottom: solid 8px rgba(246, 240, 240, 0.418);
     }
 
     #text {
-        color: #fc1010
+        color: #9054c2
         
     }
 
