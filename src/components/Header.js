@@ -5,6 +5,8 @@ import rs from "../assets/rs.png"
 import css from "../assets/csshd (2).png"
 import html from "../assets/htmlhd.png"
 import js from "../assets/jshd.png"
+import node from "../assets/node240.png"
+import mongo from "../assets/mongo240.png"
 import {Link} from "react-router-dom"
 
 const Header = () => {
@@ -36,6 +38,9 @@ const Header = () => {
                     <div class="col-xl-3 d-grid z-2 col-6"><img src={js} alt="" id="image" /><p className='text-center' id="tag">Java Script</p></div>
                     <div class="col-xl-3 d-grid z-2 col-6"><img src={html} alt="" id="image" /><p className='text-center' id="tag">CSS</p></div>
                     <div class="col-xl-3 d-grid z-2 col-6"><img src={rs} alt="" id="image" /><p className='text-center' id="tag">REACT</p></div>
+                    <div class="col-xl-3 d-grid z-2 col-6"><img src={node} alt="" id="image" /><p className='text-center' id="tag">Node</p></div>
+                    <div class="col-xl-3 d-grid z-2 col-6"><img src={mongo} alt="" id="image" /><p className='text-center' id="tag">MongoDB</p></div>
+
                 </div>
             </div>
             <div className="container-fluid">
